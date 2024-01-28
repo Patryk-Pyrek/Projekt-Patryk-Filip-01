@@ -1,3 +1,21 @@
-﻿body
-{
+﻿body {
+    margin: 0;
+    background: url(https://i.pinimg.com/originals/5c/1f/e7/5c1fe720f60d9fb0dc6e9ce24d75d456.gif) center center fixed;
+    background-size: cover;
 }
+
+    body::before {
+        content: url(https://i.gifer.com/origin/f5/f5026f5ddbdfacfeab04e4d078175c15_w200.webp);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 1000;
+        bottom: 300;
+        right: 0;
+        z-index: 2;
+        background-size: 100% 2px, 3px 100%;
+        pointer-events: none;
+    }
+
+
+
